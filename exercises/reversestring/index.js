@@ -26,8 +26,10 @@ function reverse(str) {
   //   }, "");
 
   //   return str.split("").reduce((rev, char) => char + rev, "");
-
+  debugger;
   return str.split("").reverse().join("");
 }
+
+reverse("asdf");
 
 module.exports = reverse;
